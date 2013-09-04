@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.affix {
+  position: fixed;
+  top: 70px;
+}
+
+.sb-left-nav {
+    width: 323px;
+}
+
+.nav .active {
+    background-color: #e7e7e7;
+}
+
+
+@media(max-width:989px){
+   .affix {
+     position: static;
+     width: 100%;
+     top: 0;
+    }
+    
+    .sb-left-nav {
+        width: 100%
+    }
+}
