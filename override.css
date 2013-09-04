@@ -1,6 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300);
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+}
+
+
+/*
+    Override typography
+*/
+
+
+body {
+    font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Krona One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .affix {
@@ -16,8 +33,12 @@ body {
     background-color: #e7e7e7;
 }
 
+.navColumn {
+    margin-right: 50px;
+}
 
-@media(max-width:989px){
+
+@media(max-width:991px){
    .affix {
      position: static;
      width: 100%;
@@ -26,5 +47,9 @@ body {
     
     .sb-left-nav {
         width: 100%
+    }
+    
+    .navColumn {
+        margin-right: 0px;
     }
 }
